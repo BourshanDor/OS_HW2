@@ -11,3 +11,8 @@ The implemented shell supports the following operations:
 3. **Single piping:** Users can enter two commands separated by the pipe symbol ```|```, for example: ```cat foo.txt | grep bar```. The shell executes both commands concurrently, piping the standard output of the first command to the standard input of the second command. The shell waits until both commands complete before accepting another command.
 4. **Input redirecting:** Users can enter a command and an input file name separated by the redirection symbol ```<```, for example: ```cat < file.txt```. The shell executes the command with its standard input redirected from the input file instead of the default user's terminal. The shell waits for the command to complete before accepting another command.
 
+### Execute 
+
+```gcc -O3 -D_POSIX_C_SOURCE=200809 -Wall -std=c11 shell.c myshell.c -o myshell```
+
+
