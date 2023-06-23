@@ -2,6 +2,10 @@
 ## Introduction
 The purpose of this project was to gain experience in process management, pipes, signals, and system calls by implementing a simple shell program. The shell program provides various functionalities, including executing commands, executing commands in the background, single piping, and input redirecting.
 
+(Assignment 2, Operating Systems course at Tel Aviv University)
+
+
+
 ## Shell Functionality
 
 The implemented shell supports the following operations:
